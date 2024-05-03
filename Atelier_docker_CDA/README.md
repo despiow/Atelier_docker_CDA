@@ -26,8 +26,8 @@ L'application permet de :
 - docker build -t image_mysql -f Dockerfile .
 - docker build -t image_php -f Dockerfile .
 
-- docker run -d --name conteneur_php --network network -p 80:80 img_php
-- docker run -d --name conteneur_mysql --network network -p 3306:3306 img_mysql
+- docker run -d --name conteneur_php --network docker_network -p 80:80 img_php
+- docker run -d --name conteneur_mysql --network docker_network -p 3306:3306 img_mysql
 
 # Exercice 2
 
